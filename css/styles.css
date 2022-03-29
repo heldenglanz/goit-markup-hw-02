@@ -39,3 +39,26 @@
 }
 
 /*---------HERO---------*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-style: normal;
+  font-weight: 900;
+  line-height: calc(60 / 44);
+  color: var(--third-color);
+}
+.hero-btn {
+  background-color: var(--alternative-color);
+  color: var(--third-color);
+}
+
+/*-------------TASKS-SECTION-------*/
+.tasks {
+}
+.tasks-list-item {
+}
+.tasks-list-item-title {
+}
+.tasks-list-item-text {
+}
