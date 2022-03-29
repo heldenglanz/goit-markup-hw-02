@@ -28,7 +28,7 @@
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.02em;
-  line-height: calc(16 / 14);
+  line-height: calc:(16 / 14);
   color: var(--main-color);
 }
 .header-block-contacts {
@@ -45,7 +45,7 @@
 .hero-title {
   font-style: normal;
   font-weight: 900;
-  line-height: calc(60 / 44);
+  line-height: calc:(60 / 44);
   color: var(--third-color);
 }
 .hero-btn {
@@ -55,10 +55,22 @@
 
 /*-------------TASKS-SECTION-------*/
 .tasks {
+  background: #e5e5e5;
 }
 .tasks-list-item {
 }
 .tasks-list-item-title {
+  font-style: normal;
+  font-weight: 700;
+  line-height: calc:(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .tasks-list-item-text {
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc:(24 / 14);
+  letter-spacing: 0.03em;
+
+  color: var(--second-color);
 }
