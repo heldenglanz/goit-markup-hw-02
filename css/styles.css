@@ -7,6 +7,7 @@
 .body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
+  font-style: normal;
 }
 .link {
   text-decoration: none;
@@ -25,10 +26,10 @@
 .header-list-link,
 .header-mail,
 .header-tel {
-  font-style: normal;
   font-weight: 700;
+  font-size: 14px;
   letter-spacing: 0.02em;
-  line-height: calc:(16 / 14);
+  line-height: calc(16 / 14);
   color: var(--main-color);
 }
 .header-block-contacts {
@@ -43,12 +44,13 @@
   background-color: #2f303a;
 }
 .hero-title {
-  font-style: normal;
   font-weight: 900;
-  line-height: calc:(60 / 44);
+  font-size: 44px;
+  line-height: calc(60 / 44);
   color: var(--third-color);
 }
 .hero-btn {
+  font-size: 16px;
   background-color: var(--alternative-color);
   color: var(--third-color);
 }
@@ -60,16 +62,15 @@
 .tasks-list-item {
 }
 .tasks-list-item-title {
-  font-style: normal;
   font-weight: 700;
-  line-height: calc:(16 / 14);
+  font-size: 14px;
+  line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .tasks-list-item-text {
-  font-style: normal;
-  font-weight: 400;
-  line-height: calc:(24 / 14);
+  font-size: 14px;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 
   color: var(--second-color);
@@ -80,8 +81,8 @@
  background: #e5e5e5;
 }
 .making-sector-title {
-font-style: normal;
 font-weight: 700;
+font-size: 36px;
 line-height: calc(42/36);
 color: var(--main-color);
 }
@@ -90,4 +91,29 @@ color: var(--main-color);
 .making-sector-list-item {
 }
 .making-sector-list-item-link {
+}
+
+/*---------TEAM---------*/
+
+.team {
+background-color: #F5F4FA;
+}
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: calc(42/36);
+}
+.team-list {
+}
+.team-list-item {
+}
+.team-list-item-title {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(19 / 16);
+}
+.team-list-item-text {
+font-weight: 400;
+font-size: 16px;
+line-height: calc:(19 / 16);
 }
