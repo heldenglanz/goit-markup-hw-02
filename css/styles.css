@@ -74,3 +74,20 @@
 
   color: var(--second-color);
 }
+
+/*----------MAKING-SECTOR---------*/
+.making-sector {
+ background: #e5e5e5;
+}
+.making-sector-title {
+font-style: normal;
+font-weight: 700;
+line-height: calc(42/36);
+color: var(--main-color);
+}
+.making-sector-list {
+}
+.making-sector-list-item {
+}
+.making-sector-list-item-link {
+}
