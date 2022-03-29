@@ -57,7 +57,7 @@
 
 /*-------------TASKS-SECTION-------*/
 .tasks {
-  background: #e5e5e5;
+  background-color: #e5e5e5;
 }
 .tasks-list-item {
 }
@@ -78,7 +78,7 @@
 
 /*----------MAKING-SECTOR---------*/
 .making-sector {
- background: #e5e5e5;
+ background-color: #e5e5e5;
 }
 .making-sector-title {
 font-weight: 700;
