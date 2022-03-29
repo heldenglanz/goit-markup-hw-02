@@ -1,0 +1,41 @@
+:root {
+  --main-color: #212121;
+  --second-color: #757575;
+  --third-color: #ffffff;
+  --alternative-color: #2196f3;
+}
+.body {
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+}
+.link {
+  text-decoration: none;
+}
+.text {
+}
+/*---------HEADER---------*/
+.header {
+}
+.header-nav {
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link,
+.header-mail,
+.header-tel {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: calc(16 / 14);
+  color: var(--main-color);
+}
+.header-block-contacts {
+}
+.header-mail {
+}
+.header-tel {
+}
+
+/*---------HERO---------*/
