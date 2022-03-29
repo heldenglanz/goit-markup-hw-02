@@ -4,33 +4,59 @@
   --third-color: #ffffff;
   --alternative-color: #2196f3;
 }
-.body {
-  background-color: #ffffff;
-  font-family: Roboto, sans-serif;
+body {
+  font-family: "Roboto", "sans serif";
   font-style: normal;
+  font-weight: 400;
+  background-color: var(--third-color);
 }
-.link {
+
+link,
+a,
+ul {
   text-decoration: none;
+  list-style: none;
 }
 .text {
 }
+.web {
+  color: var(--alternative-color);
+}
 /*---------HEADER---------*/
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.studio-head {
+  color: var(--main-color);
+}
 .header {
 }
 .header-nav {
 }
 .header-list {
 }
-.header-list-item {
+.header.list-item {
 }
-.header-list-link,
+.header-link,
 .header-mail,
 .header-tel {
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  line-height: calc(16 / 14);
   color: var(--main-color);
+}
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--alternative-color);
 }
 .header-block-contacts {
 }
@@ -46,7 +72,9 @@
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60 / 44);
+  line-height: 1.36;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
   color: var(--third-color);
 }
 .hero-btn {
@@ -61,59 +89,87 @@
 }
 .tasks-list-item {
 }
-.tasks-list-item-title {
+.tasks-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: calc(16 / 14);
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.tasks-list-item-text {
+.tasks .text {
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 1.7;
   letter-spacing: 0.03em;
 
   color: var(--second-color);
 }
 
-/*----------MAKING-SECTOR---------*/
-.making-sector {
- background-color: #e5e5e5;
+/*----------WORKS---------*/
+.works {
+  background-color: #e5e5e5;
 }
-.making-sector-title {
-font-weight: 700;
-font-size: 36px;
-line-height: calc(42/36);
-color: var(--main-color);
+.works > .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--main-color);
 }
-.making-sector-list {
+.works > .list {
 }
-.making-sector-list-item {
+.works > .list-item {
 }
-.making-sector-list-item-link {
+.works > .link {
 }
 
 /*---------TEAM---------*/
 
 .team {
-background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 .team-title {
-font-weight: 700;
-font-size: 36px;
-line-height: calc(42/36);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 }
 .team-list {
 }
 .team-list-item {
 }
-.team-list-item-title {
-font-weight: 500;
-font-size: 16px;
-line-height: calc(19 / 16);
+.name-title {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
-.team-list-item-text {
-font-weight: 400;
-font-size: 16px;
-line-height: calc:(19 / 16);
+.name-text {
+  color: var(--second-color);
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/*---------FOOTER---------*/
+.footer {
+  background-color: #2f303a;
+}
+.studio-foot {
+  color: var(--third-color);
+}
+.footer-left {
+}
+.address-list {
+}
+.address {
+  color: var(--third-color);
+}
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
