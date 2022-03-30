@@ -6,8 +6,6 @@
 }
 body {
   font-family: "Roboto", "sans serif";
-  font-style: normal;
-  font-weight: 400;
   background-color: var(--third-color);
 }
 
@@ -16,8 +14,6 @@ a,
 ul {
   text-decoration: none;
   list-style: none;
-}
-.text {
 }
 .web {
   color: var(--alternative-color);
@@ -80,6 +76,8 @@ ul {
 .hero-btn {
   font-weight: 700;
   font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.06em;
   background-color: var(--alternative-color);
   color: var(--third-color);
 }
@@ -173,4 +171,51 @@ ul {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+}
+
+/*-------------Portfolio-----------*/
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #e5e5e5;
+}
+/*navigation*/
+.nav-portfolio {
+}
+.portfolio-btn-list {
+}
+.portfolio-btn-item {
+}
+.nav-btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+}
+.nav-btn:hover,
+.nav-btn:focus {
+  color: var(--third-color);
+  background-color: var(--alternative-color);
+}
+
+/*projects*/
+.portfolio-projects {
+}
+.portfolio-project {
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+.project-text {
+  font-size: 16px;
+  line-height: 18.8;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
 }
