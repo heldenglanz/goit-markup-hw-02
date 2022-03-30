@@ -78,6 +78,7 @@ ul {
   color: var(--third-color);
 }
 .hero-btn {
+  font-weight: 700;
   font-size: 16px;
   background-color: var(--alternative-color);
   color: var(--third-color);
