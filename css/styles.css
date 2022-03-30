@@ -81,6 +81,7 @@ ul {
   letter-spacing: 0.06em;
   background-color: var(--alternative-color);
   color: var(--third-color);
+  cursor: pointer;
 }
 
 /*-------------TASKS-SECTION-------*/
