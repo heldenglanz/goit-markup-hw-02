@@ -196,6 +196,7 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 .nav-btn:hover,
 .nav-btn:focus {
