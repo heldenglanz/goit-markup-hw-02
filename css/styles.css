@@ -1,12 +1,12 @@
 :root {
   --main-color: #212121;
   --second-color: #757575;
-  --third-color: #ffffff;
+  --white-color: #ffffff;
   --alternative-color: #2196f3;
 }
 body {
-  font-family: "Roboto", "sans serif";
-  background-color: var(--third-color);
+  font-family: Roboto, sans-serif;
+  background-color: var(--white-color);
 }
 
 link,
@@ -40,7 +40,7 @@ ul {
 .header-link,
 .header-mail,
 .header-tel {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -71,7 +71,7 @@ ul {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  color: var(--third-color);
+  color: var(--white-color);
 }
 .hero-btn {
   font-family: Roboto, sans-serif;
@@ -80,7 +80,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--alternative-color);
-  color: var(--third-color);
+  color: var(--white-color);
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@ ul {
 .tasks {
   background-color: #e5e5e5;
 }
-.tasks-list-item {
+.tasks-list {
 }
 .tasks-title {
   font-weight: 700;
@@ -97,11 +97,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.tasks .text {
+.tasks-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-
   color: var(--second-color);
 }
 
@@ -109,17 +108,17 @@ ul {
 .works {
   background-color: #e5e5e5;
 }
-.works > .title {
+.works-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   color: var(--main-color);
 }
-.works > .list {
+.works-list {
 }
-.works > .list-item {
+.works-list-item {
 }
-.works > .link {
+.works-link {
 }
 
 /*---------TEAM---------*/
@@ -154,21 +153,23 @@ ul {
   background-color: #2f303a;
 }
 .studio-foot {
-  color: var(--third-color);
+  color: var(--white-color);
 }
 .footer-left {
 }
 .address-list {
 }
 .address {
-  color: var(--third-color);
+  color: var(--white-color);
 }
 .footer-mail,
 .footer-tel {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer-link {
+.footer-link,
+.footer-mail,
+.footer-tel {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -200,7 +201,7 @@ body {
 }
 .nav-btn:hover,
 .nav-btn:focus {
-  color: var(--third-color);
+  color: var(--white-color);
   background-color: var(--alternative-color);
 }
 
