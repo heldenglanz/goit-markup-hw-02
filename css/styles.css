@@ -2,8 +2,9 @@
   --main-color: #212121;
   --second-color: #757575;
   --white-color: #ffffff;
-  --alternative-color: #2196f3;
+  --accent-color: #2196f3;
 }
+
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--white-color);
@@ -16,7 +17,7 @@ ul {
   list-style: none;
 }
 .web {
-  color: var(--alternative-color);
+  color: var(--accent-color);
 }
 /*---------HEADER---------*/
 .logo {
@@ -52,7 +53,7 @@ ul {
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
-  color: var(--alternative-color);
+  color: var(--accent-color);
 }
 .header-block-contacts {
 }
@@ -79,7 +80,7 @@ ul {
   font-size: 16px;
   text-align: center;
   letter-spacing: 0.06em;
-  background-color: var(--alternative-color);
+  background-color: var(--accent-color);
   color: var(--white-color);
   cursor: pointer;
 }
@@ -182,17 +183,19 @@ body {
   background-color: #e5e5e5;
 }
 /*navigation*/
-.nav-portfolio {
-}
+
 .portfolio-btn-list {
 }
 .portfolio-btn-item {
 }
+.nav {
+}
+
 .nav-btn {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 16.2;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -202,10 +205,12 @@ body {
 .nav-btn:hover,
 .nav-btn:focus {
   color: var(--white-color);
-  background-color: var(--alternative-color);
+  background-color: var(--accent-color);
 }
 
 /*projects*/
+.projects {
+}
 .portfolio-projects {
 }
 .portfolio-project {
@@ -219,7 +224,7 @@ body {
 }
 .project-text {
   font-size: 16px;
-  line-height: 18.8;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
