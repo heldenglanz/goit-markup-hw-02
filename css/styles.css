@@ -8,6 +8,7 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: var(--white-color);
+  color: var(--main-color);
   text-decoration: none;
   list-style: none;
 }
@@ -38,7 +39,8 @@ ul {
 }
 .header-list {
 }
-.header.list-item {
+.header-list.list-item {
+  color: var(--main-color)
 }
 .header-link,
 .header-mail,
@@ -112,6 +114,7 @@ ul {
   background-color: #e5e5e5;
 }
 .works-title {
+  letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
