@@ -34,6 +34,7 @@ ul {
   color: var(--main-color);
 }
 .header {
+  background-color: var(--white-color);
 }
 .header-nav {
 }
@@ -98,7 +99,7 @@ ul {
 
 /*-------------TASKS-SECTION-------*/
 .tasks {
-  background-color: #e5e5e5;
+background-color: var(--white-color);
 }
 .tasks-list {
 }
@@ -118,7 +119,7 @@ ul {
 
 /*----------WORKS---------*/
 .works {
-  background-color: #e5e5e5;
+  background-color: var(--white-color);
 }
 .works-title {
   letter-spacing: 0.03em;
