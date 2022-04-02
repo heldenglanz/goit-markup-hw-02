@@ -42,14 +42,21 @@ ul {
 .header-list.list-item {
   color: var(--main-color)
 }
-.header-link,
+.header-link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
 .header-mail,
 .header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-color);
+  color: var(--second-color);
+  
 }
 .header-link:hover,
 .header-link:focus,
