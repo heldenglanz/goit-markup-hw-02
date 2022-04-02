@@ -133,6 +133,7 @@ ul {
   background-color: #f5f4fa;
 }
 .team-title {
+  letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -152,6 +153,7 @@ ul {
   color: var(--second-color);
   font-size: 16px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /*---------FOOTER---------*/
